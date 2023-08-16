@@ -1,0 +1,70 @@
+body{
+   background-color: white; 
+}
+
+.first{
+    padding: 35px;
+    background-color:#20aae1;
+    margin-bottom: 24px;
+}
+.firstA{
+    color:#fff;
+    background:#1791be;
+    width:70px;
+    height: 70px;
+    border-radius: 100px;
+    margin: auto;
+    padding-top: 8px;
+}
+
+.second{
+    padding: 35px;
+    background-color: lightgreen;
+    margin-bottom: 24px;
+}
+.secondB{
+    color:#fff;
+    background:#e2980c;
+    width: 70px;
+    height: 70px;
+    border-radius:100px;
+    margin: auto;
+    padding-top: 8px;
+    
+    
+}
+.thireC{
+    padding:35px;
+    background-color: #2acd72;
+    margin-bottom: 24px;
+}
+.thireC{
+    color: #fff;
+    background:#1c9652;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    margin: auto;
+    padding-top: 8px;
+}
+.four{
+    padding: 15px;
+    background: #e7e7e7;
+    margin-bottom: 20px;
+}
+.box{
+    padding: 0px;
+    margin: 0px;
+}
+@media(max-width:576px)
+{
+    .box{
+        padding:0px;
+        margin:0px;
+        display:flex;
+        flex-direction:column-reverse;
+    }
+}
+
+
+
